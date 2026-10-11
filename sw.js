@@ -1,6 +1,6 @@
 // Letterspade Time service worker: caches the app shell so the home-screen app opens instantly
 // and still shows your last-loaded data when offline. Network first, cache as fallback.
-const CACHE = 'lt-shell-v1';
+const CACHE = 'lt-shell-v2';
 const SHELL = ['./', './index.html', './config.js', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
